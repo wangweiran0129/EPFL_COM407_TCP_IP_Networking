@@ -94,5 +94,3 @@ for i in range(60):
 print('total packet = ', totalpacket)
 print('average packet per loop = ', totalpacket/60)
 print('lost rate1 = ', (totalpacket-60)/totalpacket)
-print('lost are = ', totallost)
-print('lost rate2 = ', lost/totalpacket)
