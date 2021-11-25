@@ -1,0 +1,300 @@
+2021/11/25 14:31:31 ZEBRA: Not Notifying Owner: 2 about prefix 10.10.23.0/24(254) 2 vrf: 0
+2021/11/25 14:31:31 ZEBRA: Not Notifying Owner: 2 about prefix fe80::/64(254) 2 vrf: 0
+2021/11/25 14:31:31 ZEBRA: Not Notifying Owner: 2 about prefix 10.10.35.0/24(254) 2 vrf: 0
+2021/11/25 14:31:31 ZEBRA: Not Notifying Owner: 2 about prefix 10.10.23.0/24(254) 2 vrf: 0
+2021/11/25 14:31:31 ZEBRA: Not Notifying Owner: 2 about prefix fe80::/64(254) 2 vrf: 0
+2021/11/25 14:31:31 ZEBRA: zebra message[ZEBRA_HELLO:0:14] comes from socket [13]
+2021/11/25 14:31:31 ZEBRA: zebra message[ZEBRA_INTERFACE_ADD:0:10] comes from socket [13]
+2021/11/25 14:31:31 ZEBRA: zebra message[ZEBRA_BFD_CLIENT_REGISTER:0:14] comes from socket [13]
+2021/11/25 14:31:31 ZEBRA: zebra message[ZEBRA_ROUTER_ID_ADD:0:10] comes from socket [13]
+2021/11/25 14:31:31 ZEBRA: zebra message[ZEBRA_INTERFACE_ADD:0:10] comes from socket [13]
+2021/11/25 14:31:31 ZEBRA: Read 5 packets from client: system
+2021/11/25 14:31:31 ZEBRA: Rx'd ZAPI message
+2021/11/25 14:31:31 ZEBRA:  Length: 14
+2021/11/25 14:31:31 ZEBRA: Command: ZEBRA_HELLO
+2021/11/25 14:31:31 ZEBRA:     VRF: 0
+2021/11/25 14:31:31 ZEBRA: 
+0x00007f7374000cc0: 00 0e fe 06             ....    
+
+2021/11/25 14:31:31 ZEBRA: client 13 says hello and bids fair to announce only ospf routes vrf=0
+2021/11/25 14:31:31 ZEBRA: Rx'd ZAPI message
+2021/11/25 14:31:31 ZEBRA:  Length: 10
+2021/11/25 14:31:31 ZEBRA: Command: ZEBRA_INTERFACE_ADD
+2021/11/25 14:31:31 ZEBRA:     VRF: 0
+2021/11/25 14:31:31 ZEBRA: 
+
+2021/11/25 14:31:31 ZEBRA: Rx'd ZAPI message
+2021/11/25 14:31:31 ZEBRA:  Length: 14
+2021/11/25 14:31:31 ZEBRA: Command: ZEBRA_BFD_CLIENT_REGISTER
+2021/11/25 14:31:31 ZEBRA:     VRF: 0
+2021/11/25 14:31:31 ZEBRA: 
+0x00007f7374000d40: 00 0e fe 06             ....    
+
+2021/11/25 14:31:31 ZEBRA: Rx'd ZAPI message
+2021/11/25 14:31:31 ZEBRA:  Length: 10
+2021/11/25 14:31:31 ZEBRA: Command: ZEBRA_ROUTER_ID_ADD
+2021/11/25 14:31:31 ZEBRA:     VRF: 0
+2021/11/25 14:31:31 ZEBRA: 
+
+2021/11/25 14:31:31 ZEBRA: Rx'd ZAPI message
+2021/11/25 14:31:31 ZEBRA:  Length: 10
+2021/11/25 14:31:31 ZEBRA: Command: ZEBRA_INTERFACE_ADD
+2021/11/25 14:31:31 ZEBRA:     VRF: 0
+2021/11/25 14:31:31 ZEBRA: 
+
+2021/11/25 14:31:31 ZEBRA: zebra message[ZEBRA_ROUTE_ADD:0:40] comes from socket [13]
+2021/11/25 14:31:31 ZEBRA: Read 1 packets from client: ospf
+2021/11/25 14:31:31 ZEBRA: Rx'd ZAPI message
+2021/11/25 14:31:31 ZEBRA:  Length: 40
+2021/11/25 14:31:31 ZEBRA: Command: ZEBRA_ROUTE_ADD
+2021/11/25 14:31:31 ZEBRA:     VRF: 0
+2021/11/25 14:31:31 ZEBRA: 
+0x00007f7374000f10: 00 28 fe 06 00 00 00 00 .(......
+0x00007f7374000f18: 00 07 06 00 00 00 00 00 ........
+0x00007f7374000f20: 00 05 01 02 18 0a 0a 17 ........
+0x00007f7374000f28: 00 01 00 00 00 00       ......  
+
+2021/11/25 14:31:31 ZEBRA: zread_route_add: p=10.10.23.0/24, ZAPI_MESSAGE_LABEL: unset, flags=0x0
+2021/11/25 14:31:31 ZEBRA: nh type 1
+2021/11/25 14:31:31 ZEBRA: zebra message[ZEBRA_ROUTE_ADD:0:40] comes from socket [13]
+2021/11/25 14:31:31 ZEBRA: Read 1 packets from client: ospf
+2021/11/25 14:31:31 ZEBRA: Rx'd ZAPI message
+2021/11/25 14:31:31 ZEBRA:  Length: 40
+2021/11/25 14:31:31 ZEBRA: Command: ZEBRA_ROUTE_ADD
+2021/11/25 14:31:31 ZEBRA:     VRF: 0
+2021/11/25 14:31:31 ZEBRA: 
+0x00007f7374000cc0: 00 28 fe 06 00 00 00 00 .(......
+0x00007f7374000cc8: 00 07 06 00 00 00 00 00 ........
+0x00007f7374000cd0: 00 05 01 02 18 0a 0a 23 .......#
+0x00007f7374000cd8: 00 01 00 00 00 00       ......  
+
+2021/11/25 14:31:31 ZEBRA: zread_route_add: p=10.10.35.0/24, ZAPI_MESSAGE_LABEL: unset, flags=0x0
+2021/11/25 14:31:31 ZEBRA: nh type 1
+2021/11/25 14:31:31 ZEBRA: Not Notifying Owner: 2 about prefix 10.10.23.0/24(254) 2 vrf: 0
+2021/11/25 14:31:31 ZEBRA: Not Notifying Owner: 2 about prefix 10.10.35.0/24(254) 2 vrf: 0
+2021/11/25 14:31:32 ZEBRA: Not Notifying Owner: 2 about prefix 2001:1:0:23::/64(254) 2 vrf: 0
+2021/11/25 14:31:32 ZEBRA: Not Notifying Owner: 2 about prefix 10.10.23.0/24(254) 2 vrf: 0
+2021/11/25 14:31:32 ZEBRA: Not Notifying Owner: 2 about prefix 10.10.35.0/24(254) 2 vrf: 0
+2021/11/25 14:31:32 ZEBRA: Not Notifying Owner: 2 about prefix fe80::/64(254) 2 vrf: 0
+2021/11/25 14:31:32 ZEBRA: Not Notifying Owner: 2 about prefix 2001:1:0:35::/64(254) 2 vrf: 0
+2021/11/25 14:31:32 ZEBRA: Not Notifying Owner: 2 about prefix 10.10.23.0/24(254) 2 vrf: 0
+2021/11/25 14:31:32 ZEBRA: Not Notifying Owner: 2 about prefix 10.10.35.0/24(254) 2 vrf: 0
+2021/11/25 14:31:32 ZEBRA: Not Notifying Owner: 2 about prefix 2001:1:0:23::/64(254) 2 vrf: 0
+2021/11/25 14:31:32 ZEBRA: Not Notifying Owner: 2 about prefix fe80::/64(254) 2 vrf: 0
+2021/11/25 14:32:11 ZEBRA: zebra message[ZEBRA_ROUTE_DELETE:0:24] comes from socket [13]
+2021/11/25 14:32:11 ZEBRA: Read 1 packets from client: ospf
+2021/11/25 14:32:11 ZEBRA: Rx'd ZAPI message
+2021/11/25 14:32:11 ZEBRA:  Length: 24
+2021/11/25 14:32:11 ZEBRA: Command: ZEBRA_ROUTE_DELETE
+2021/11/25 14:32:11 ZEBRA:     VRF: 0
+2021/11/25 14:32:11 ZEBRA: 
+0x00007f7374000db0: 00 18 fe 06 00 00 00 00 ........
+0x00007f7374000db8: 00 08 06 00 00 00       ......  
+
+2021/11/25 14:32:11 ZEBRA: Not Notifying Owner: 2 about prefix 10.10.35.0/24(254) 2 vrf: 0
+2021/11/25 14:32:11 ZEBRA: zebra message[ZEBRA_ROUTE_ADD:0:40] comes from socket [13]
+2021/11/25 14:32:11 ZEBRA: Read 1 packets from client: ospf
+2021/11/25 14:32:11 ZEBRA: Rx'd ZAPI message
+2021/11/25 14:32:11 ZEBRA:  Length: 40
+2021/11/25 14:32:11 ZEBRA: Command: ZEBRA_ROUTE_ADD
+2021/11/25 14:32:11 ZEBRA:     VRF: 0
+2021/11/25 14:32:11 ZEBRA: 
+0x00007f7374000d60: 00 28 fe 06 00 00 00 00 .(......
+0x00007f7374000d68: 00 07 06 00 00 00 00 00 ........
+0x00007f7374000d70: 00 05 01 02 18 0a 0a 23 .......#
+0x00007f7374000d78: 00 01 00 00 00 00       ......  
+
+2021/11/25 14:32:11 ZEBRA: zread_route_add: p=10.10.35.0/24, ZAPI_MESSAGE_LABEL: unset, flags=0x0
+2021/11/25 14:32:11 ZEBRA: nh type 1
+2021/11/25 14:32:11 ZEBRA: Not Notifying Owner: 2 about prefix 10.10.35.0/24(254) 2 vrf: 0
+2021/11/25 14:32:21 ZEBRA: zebra message[ZEBRA_ROUTE_ADD:0:44] comes from socket [13]
+2021/11/25 14:32:21 ZEBRA: Read 1 packets from client: ospf
+2021/11/25 14:32:21 ZEBRA: Rx'd ZAPI message
+2021/11/25 14:32:21 ZEBRA:  Length: 44
+2021/11/25 14:32:21 ZEBRA: Command: ZEBRA_ROUTE_ADD
+2021/11/25 14:32:21 ZEBRA:     VRF: 0
+2021/11/25 14:32:21 ZEBRA: 
+0x00007f7374000f60: 00 2c fe 06 00 00 00 00 .,......
+0x00007f7374000f68: 00 07 06 00 00 00 00 00 ........
+0x00007f7374000f70: 00 05 01 02 18 0a 0a 0b ........
+0x00007f7374000f78: 00 01 00 00 00 00 03 00 ........
+0x00007f7374000f80: 0a 0a                   ..      
+
+2021/11/25 14:32:21 ZEBRA: zread_route_add: p=10.10.11.0/24, ZAPI_MESSAGE_LABEL: unset, flags=0x0
+2021/11/25 14:32:21 ZEBRA: nh type 3
+2021/11/25 14:32:21 ZEBRA: zread_route_add: nh=10.10.35.5, vrf_id=0 (re->vrf_id=0), ifindex=3
+2021/11/25 14:32:21 ZEBRA: zebra message[ZEBRA_ROUTE_ADD:0:44] comes from socket [13]
+2021/11/25 14:32:21 ZEBRA: Read 1 packets from client: ospf
+2021/11/25 14:32:21 ZEBRA: Rx'd ZAPI message
+2021/11/25 14:32:21 ZEBRA:  Length: 44
+2021/11/25 14:32:21 ZEBRA: Command: ZEBRA_ROUTE_ADD
+2021/11/25 14:32:21 ZEBRA:     VRF: 0
+2021/11/25 14:32:21 ZEBRA: 
+0x00007f7374000f60: 00 2c fe 06 00 00 00 00 .,......
+0x00007f7374000f68: 00 07 06 00 00 00 00 00 ........
+0x00007f7374000f70: 00 05 01 02 18 0a 0a 0c ........
+0x00007f7374000f78: 00 01 00 00 00 00 03 00 ........
+0x00007f7374000f80: 0a 0a                   ..      
+
+2021/11/25 14:32:21 ZEBRA: zread_route_add: p=10.10.12.0/24, ZAPI_MESSAGE_LABEL: unset, flags=0x0
+2021/11/25 14:32:21 ZEBRA: nh type 3
+2021/11/25 14:32:21 ZEBRA: zread_route_add: nh=10.10.35.5, vrf_id=0 (re->vrf_id=0), ifindex=3
+2021/11/25 14:32:21 ZEBRA: zebra message[ZEBRA_ROUTE_ADD:0:44] comes from socket [13]
+2021/11/25 14:32:21 ZEBRA: Read 1 packets from client: ospf
+2021/11/25 14:32:21 ZEBRA: Rx'd ZAPI message
+2021/11/25 14:32:21 ZEBRA:  Length: 44
+2021/11/25 14:32:21 ZEBRA: Command: ZEBRA_ROUTE_ADD
+2021/11/25 14:32:21 ZEBRA:     VRF: 0
+2021/11/25 14:32:21 ZEBRA: 
+0x00007f7374000f60: 00 2c fe 06 00 00 00 00 .,......
+0x00007f7374000f68: 00 07 06 00 00 00 00 00 ........
+0x00007f7374000f70: 00 05 01 02 18 0a 0a 0e ........
+0x00007f7374000f78: 00 01 00 00 00 00 03 00 ........
+0x00007f7374000f80: 0a 0a                   ..      
+
+2021/11/25 14:32:21 ZEBRA: zread_route_add: p=10.10.14.0/24, ZAPI_MESSAGE_LABEL: unset, flags=0x0
+2021/11/25 14:32:21 ZEBRA: nh type 3
+2021/11/25 14:32:21 ZEBRA: zread_route_add: nh=10.10.35.5, vrf_id=0 (re->vrf_id=0), ifindex=3
+2021/11/25 14:32:21 ZEBRA: zebra message[ZEBRA_ROUTE_ADD:0:44] comes from socket [13]
+2021/11/25 14:32:21 ZEBRA: Read 1 packets from client: ospf
+2021/11/25 14:32:21 ZEBRA: Rx'd ZAPI message
+2021/11/25 14:32:21 ZEBRA:  Length: 44
+2021/11/25 14:32:21 ZEBRA: Command: ZEBRA_ROUTE_ADD
+2021/11/25 14:32:21 ZEBRA:     VRF: 0
+2021/11/25 14:32:21 ZEBRA: 
+0x00007f7374000f60: 00 2c fe 06 00 00 00 00 .,......
+0x00007f7374000f68: 00 07 06 00 00 00 00 00 ........
+0x00007f7374000f70: 00 05 01 02 18 0a 0a 18 ........
+0x00007f7374000f78: 00 01 00 00 00 00 03 00 ........
+0x00007f7374000f80: 0a 0a                   ..      
+
+2021/11/25 14:32:21 ZEBRA: zread_route_add: p=10.10.24.0/24, ZAPI_MESSAGE_LABEL: unset, flags=0x0
+2021/11/25 14:32:21 ZEBRA: nh type 3
+2021/11/25 14:32:21 ZEBRA: zread_route_add: nh=10.10.35.5, vrf_id=0 (re->vrf_id=0), ifindex=3
+2021/11/25 14:32:21 ZEBRA: zebra message[ZEBRA_ROUTE_ADD:0:44] comes from socket [13]
+2021/11/25 14:32:21 ZEBRA: Read 1 packets from client: ospf
+2021/11/25 14:32:21 ZEBRA: Rx'd ZAPI message
+2021/11/25 14:32:21 ZEBRA:  Length: 44
+2021/11/25 14:32:21 ZEBRA: Command: ZEBRA_ROUTE_ADD
+2021/11/25 14:32:21 ZEBRA:     VRF: 0
+2021/11/25 14:32:21 ZEBRA: 
+0x00007f7374000f60: 00 2c fe 06 00 00 00 00 .,......
+0x00007f7374000f68: 00 07 06 00 00 00 00 00 ........
+0x00007f7374000f70: 00 05 01 02 18 0a 0a 19 ........
+0x00007f7374000f78: 00 01 00 00 00 00 03 00 ........
+0x00007f7374000f80: 0a 0a                   ..      
+
+2021/11/25 14:32:21 ZEBRA: zread_route_add: p=10.10.25.0/24, ZAPI_MESSAGE_LABEL: unset, flags=0x0
+2021/11/25 14:32:21 ZEBRA: nh type 3
+2021/11/25 14:32:21 ZEBRA: zread_route_add: nh=10.10.35.5, vrf_id=0 (re->vrf_id=0), ifindex=3
+2021/11/25 14:32:21 ZEBRA: zebra message[ZEBRA_ROUTE_ADD:0:44] comes from socket [13]
+2021/11/25 14:32:21 ZEBRA: Read 1 packets from client: ospf
+2021/11/25 14:32:21 ZEBRA: Rx'd ZAPI message
+2021/11/25 14:32:21 ZEBRA:  Length: 44
+2021/11/25 14:32:21 ZEBRA: Command: ZEBRA_ROUTE_ADD
+2021/11/25 14:32:21 ZEBRA:     VRF: 0
+2021/11/25 14:32:21 ZEBRA: 
+0x00007f7374000f60: 00 2c fe 06 00 00 00 00 .,......
+0x00007f7374000f68: 00 07 06 00 00 00 00 00 ........
+0x00007f7374000f70: 00 05 01 02 18 0a 0a 2d .......-
+0x00007f7374000f78: 00 01 00 00 00 00 03 00 ........
+0x00007f7374000f80: 0a 0a                   ..      
+
+2021/11/25 14:32:21 ZEBRA: zread_route_add: p=10.10.45.0/24, ZAPI_MESSAGE_LABEL: unset, flags=0x0
+2021/11/25 14:32:21 ZEBRA: nh type 3
+2021/11/25 14:32:21 ZEBRA: zread_route_add: nh=10.10.35.5, vrf_id=0 (re->vrf_id=0), ifindex=3
+2021/11/25 14:32:21 ZEBRA: Not Notifying Owner: 6 about prefix 10.10.11.0/24(254) 2 vrf: 0
+2021/11/25 14:32:21 ZEBRA: Not Notifying Owner: 6 about prefix 10.10.12.0/24(254) 2 vrf: 0
+2021/11/25 14:32:21 ZEBRA: Not Notifying Owner: 6 about prefix 10.10.14.0/24(254) 2 vrf: 0
+2021/11/25 14:32:21 ZEBRA: Not Notifying Owner: 6 about prefix 10.10.24.0/24(254) 2 vrf: 0
+2021/11/25 14:32:21 ZEBRA: Not Notifying Owner: 6 about prefix 10.10.25.0/24(254) 2 vrf: 0
+2021/11/25 14:32:21 ZEBRA: Not Notifying Owner: 6 about prefix 10.10.45.0/24(254) 2 vrf: 0
+2021/11/25 14:40:03 ZEBRA: Vty connection from 127.0.0.1
+2021/11/25 15:53:39 ZEBRA: zebra message[ZEBRA_ROUTE_DELETE:0:24] comes from socket [13]
+2021/11/25 15:53:39 ZEBRA: Read 1 packets from client: ospf
+2021/11/25 15:53:39 ZEBRA: Rx'd ZAPI message
+2021/11/25 15:53:39 ZEBRA:  Length: 24
+2021/11/25 15:53:39 ZEBRA: Command: ZEBRA_ROUTE_DELETE
+2021/11/25 15:53:39 ZEBRA:     VRF: 0
+2021/11/25 15:53:39 ZEBRA: 
+0x00007f7374000fb0: 00 18 fe 06 00 00 00 00 ........
+0x00007f7374000fb8: 00 08 06 00 00 00       ......  
+
+2021/11/25 15:53:39 ZEBRA: Not Notifying Owner: 2 about prefix 10.10.23.0/24(254) 3 vrf: 0
+2021/11/25 15:53:39 ZEBRA: Not Notifying Owner: 2 about prefix 10.10.35.0/24(254) 2 vrf: 0
+2021/11/25 15:53:39 ZEBRA: Not Notifying Owner: 2 about prefix 2001:1:0:23::/64(254) 3 vrf: 0
+2021/11/25 15:53:39 ZEBRA: Not Notifying Owner: 2 about prefix 2001:1:0:35::/64(254) 2 vrf: 0
+2021/11/25 15:53:39 ZEBRA: Not Notifying Owner: 2 about prefix fe80::/64(254) 2 vrf: 0
+2021/11/25 15:53:40 ZEBRA: zebra message[ZEBRA_ROUTE_DELETE:0:24] comes from socket [13]
+2021/11/25 15:53:40 ZEBRA: zebra message[ZEBRA_ROUTE_DELETE:0:24] comes from socket [13]
+2021/11/25 15:53:40 ZEBRA: zebra message[ZEBRA_ROUTE_DELETE:0:24] comes from socket [13]
+2021/11/25 15:53:40 ZEBRA: zebra message[ZEBRA_ROUTE_DELETE:0:24] comes from socket [13]
+2021/11/25 15:53:40 ZEBRA: zebra message[ZEBRA_ROUTE_DELETE:0:24] comes from socket [13]
+2021/11/25 15:53:40 ZEBRA: zebra message[ZEBRA_ROUTE_DELETE:0:24] comes from socket [13]
+2021/11/25 15:53:40 ZEBRA: zebra message[ZEBRA_ROUTE_DELETE:0:24] comes from socket [13]
+2021/11/25 15:53:40 ZEBRA: Read 7 packets from client: ospf
+2021/11/25 15:53:40 ZEBRA: Rx'd ZAPI message
+2021/11/25 15:53:40 ZEBRA:  Length: 24
+2021/11/25 15:53:40 ZEBRA: Command: ZEBRA_ROUTE_DELETE
+2021/11/25 15:53:40 ZEBRA:     VRF: 0
+2021/11/25 15:53:40 ZEBRA: 
+0x00007f7374000fb0: 00 18 fe 06 00 00 00 00 ........
+0x00007f7374000fb8: 00 08 06 00 00 00       ......  
+
+2021/11/25 15:53:40 ZEBRA: Rx'd ZAPI message
+2021/11/25 15:53:40 ZEBRA:  Length: 24
+2021/11/25 15:53:40 ZEBRA: Command: ZEBRA_ROUTE_DELETE
+2021/11/25 15:53:40 ZEBRA:     VRF: 0
+2021/11/25 15:53:40 ZEBRA: 
+0x00007f7374000ff0: 00 18 fe 06 00 00 00 00 ........
+0x00007f7374000ff8: 00 08 06 00 00 00       ......  
+
+2021/11/25 15:53:40 ZEBRA: Rx'd ZAPI message
+2021/11/25 15:53:40 ZEBRA:  Length: 24
+2021/11/25 15:53:40 ZEBRA: Command: ZEBRA_ROUTE_DELETE
+2021/11/25 15:53:40 ZEBRA:     VRF: 0
+2021/11/25 15:53:40 ZEBRA: 
+0x00007f7374001030: 00 18 fe 06 00 00 00 00 ........
+0x00007f7374001038: 00 08 06 00 00 00       ......  
+
+2021/11/25 15:53:40 ZEBRA: Rx'd ZAPI message
+2021/11/25 15:53:40 ZEBRA:  Length: 24
+2021/11/25 15:53:40 ZEBRA: Command: ZEBRA_ROUTE_DELETE
+2021/11/25 15:53:40 ZEBRA:     VRF: 0
+2021/11/25 15:53:40 ZEBRA: 
+0x00007f7374001070: 00 18 fe 06 00 00 00 00 ........
+0x00007f7374001078: 00 08 06 00 00 00       ......  
+
+2021/11/25 15:53:40 ZEBRA: Rx'd ZAPI message
+2021/11/25 15:53:40 ZEBRA:  Length: 24
+2021/11/25 15:53:40 ZEBRA: Command: ZEBRA_ROUTE_DELETE
+2021/11/25 15:53:40 ZEBRA:     VRF: 0
+2021/11/25 15:53:40 ZEBRA: 
+0x00007f73740010b0: 00 18 fe 06 00 00 00 00 ........
+0x00007f73740010b8: 00 08 06 00 00 00       ......  
+
+2021/11/25 15:53:40 ZEBRA: Rx'd ZAPI message
+2021/11/25 15:53:40 ZEBRA:  Length: 24
+2021/11/25 15:53:40 ZEBRA: Command: ZEBRA_ROUTE_DELETE
+2021/11/25 15:53:40 ZEBRA:     VRF: 0
+2021/11/25 15:53:40 ZEBRA: 
+0x00007f73740010f0: 00 18 fe 06 00 00 00 00 ........
+0x00007f73740010f8: 00 08 06 00 00 00       ......  
+
+2021/11/25 15:53:40 ZEBRA: Rx'd ZAPI message
+2021/11/25 15:53:40 ZEBRA:  Length: 24
+2021/11/25 15:53:40 ZEBRA: Command: ZEBRA_ROUTE_DELETE
+2021/11/25 15:53:40 ZEBRA:     VRF: 0
+2021/11/25 15:53:40 ZEBRA: 
+0x00007f7374001130: 00 18 fe 06 00 00 00 00 ........
+0x00007f7374001138: 00 08 06 00 00 00       ......  
+
+2021/11/25 15:53:40 ZEBRA: Not Notifying Owner: 2 about prefix fe80::/64(254) 3 vrf: 0
+2021/11/25 15:53:40 ZEBRA: Not Notifying Owner: 2 about prefix 10.10.35.0/24(254) 3 vrf: 0
+2021/11/25 15:53:40 ZEBRA: Not Notifying Owner: 2 about prefix 2001:1:0:35::/64(254) 3 vrf: 0
+2021/11/25 15:53:40 ZEBRA: Not Notifying Owner: 6 about prefix 10.10.11.0/24(254) 3 vrf: 0
+2021/11/25 15:53:40 ZEBRA: Not Notifying Owner: 6 about prefix 10.10.12.0/24(254) 3 vrf: 0
+2021/11/25 15:53:40 ZEBRA: Not Notifying Owner: 6 about prefix 10.10.14.0/24(254) 3 vrf: 0
+2021/11/25 15:53:40 ZEBRA: Not Notifying Owner: 6 about prefix 10.10.24.0/24(254) 3 vrf: 0
+2021/11/25 15:53:40 ZEBRA: Not Notifying Owner: 6 about prefix 10.10.25.0/24(254) 3 vrf: 0
+2021/11/25 15:53:40 ZEBRA: Not Notifying Owner: 6 about prefix 10.10.45.0/24(254) 3 vrf: 0

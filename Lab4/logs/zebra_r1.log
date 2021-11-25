@@ -1,0 +1,7 @@
+2021/11/25 14:31:30 ZEBRA: [EC 100663304] ERROR: No such command on config line 6: zebra packet
+2021/11/25 14:31:31 ZEBRA: client 13 says hello and bids fair to announce only ospf routes vrf=0
+2021/11/25 14:38:43 ZEBRA: Vty connection from 127.0.0.1
+2021/11/25 14:39:26 ZEBRA: Vty connection from 127.0.0.1
+2021/11/25 15:46:42 ZEBRA: Vty connection from 127.0.0.1
+2021/11/25 15:53:38 ZEBRA: [EC 4043309093] netlink-dp (NS 0) error: No such device, type=RTM_NEWROUTE(24), seq=53, pid=3976555751
+2021/11/25 15:53:38 ZEBRA: 0:10.10.12.0/24: Route install failed
