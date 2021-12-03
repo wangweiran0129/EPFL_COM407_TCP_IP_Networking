@@ -1,0 +1,43 @@
+2021/11/27 13:18:52 OSPF6: Interface Event r1−eth1: [InterfaceDown]
+2021/11/27 13:18:52 OSPF6: area_range: for prefix 2001:1:0:12::/64, flag = 0
+2021/11/27 13:18:52 OSPF6: Interface Event r1−eth2: [InterfaceDown]
+2021/11/27 13:18:52 OSPF6: area_range: for prefix 2001:1:0:14::/64, flag = 0
+2021/11/27 13:18:52 OSPF6: Interface Event r1-eth3: [InterfaceDown]
+2021/11/27 13:18:52 OSPF6: area_range: for prefix 2001:1:0:11::/64, flag = 0
+2021/11/27 13:18:52 OSPF6: [EC 100663304] ERROR: No such command on config line 10:  ipv6 ospf6 instance−id 1
+2021/11/27 13:18:52 OSPF6: [EC 100663304] ERROR: No such command on config line 13:  ipv6 ospf6 instance−id 1
+2021/11/27 13:18:52 OSPF6: Interface Event r1-eth3: [InterfaceDown]
+2021/11/27 13:18:52 OSPF6: Interface Event r1-eth3: [InterfaceUp]
+2021/11/27 13:18:52 OSPF6: Filter out Linklocal: fe80::e0a0:dbff:feb5:d9ec/64
+2021/11/27 13:18:52 OSPF6: Interface state change r1-eth3: Down -> Waiting
+2021/11/27 13:18:52 OSPF6: Filter out Linklocal: fe80::e0a0:dbff:feb5:d9ec/64
+2021/11/27 13:18:52 OSPF6: SPF: Scheduled in 0 msec
+2021/11/27 13:18:52 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 2 usec, Reason: R+, L+
+
+2021/11/27 13:18:52 OSPF6: Interface Event r1-eth3: [InterfaceUp]
+2021/11/27 13:18:52 OSPF6: Interface r1-eth3 already enabled
+2021/11/27 13:18:52 OSPF6: Interface Event r1-eth3: [InterfaceUp]
+2021/11/27 13:18:52 OSPF6: Interface r1-eth3 already enabled
+2021/11/27 13:18:52 OSPF6: Filter out Linklocal: fe80::e0a0:dbff:feb5:d9ec/64
+2021/11/27 13:18:52 OSPF6: SPF: Scheduled in 50 msec
+2021/11/27 13:18:52 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 8 usec, Reason: L+
+
+2021/11/27 13:18:53 OSPF6: Interface Event r1-eth3: [InterfaceUp]
+2021/11/27 13:18:53 OSPF6: Interface r1-eth3 already enabled
+2021/11/27 13:18:53 OSPF6: Filter out Linklocal: fe80::e0a0:dbff:feb5:d9ec/64
+2021/11/27 13:18:53 OSPF6: SPF: Scheduled in 0 msec
+2021/11/27 13:18:53 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 2 usec, Reason: L+, L-
+
+2021/11/27 13:19:32 OSPF6: Interface Event r1-eth3: [WaitTimer]
+2021/11/27 13:19:32 OSPF6: DR Election on r1-eth3: DR: 10.10.14.1 BDR: 0.0.0.0
+2021/11/27 13:19:32 OSPF6: Interface state change r1-eth3: Waiting -> DR
+2021/11/27 13:19:32 OSPF6: SPF: Scheduled in 0 msec
+2021/11/27 13:19:32 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 75 usec, Reason: R+
+
+2021/11/27 16:37:50 OSPF6: Interface Event r1-eth3: [InterfaceDown]
+2021/11/27 16:37:50 OSPF6: Interface state change r1-eth3: DR -> Down
+2021/11/27 16:37:50 OSPF6: Interface Event r1-eth3: [InterfaceDown]
+2021/11/27 16:37:50 OSPF6: Interface Event r1-eth3: [InterfaceDown]
+2021/11/27 16:38:50 OSPF6: SPF: Scheduled in 0 msec
+2021/11/27 16:38:50 OSPF6: SPF processing: # Areas: 1, SPF runtime: 0 sec 25 usec, Reason: L-
+
